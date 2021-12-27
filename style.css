@@ -1,0 +1,116 @@
+body{
+        font-family:'PT Sans',sana-serif;
+        background-color:#252529;
+	margin:0;
+	color:#fff;
+	Line-height:1.6;
+}
+
+.section-main{
+	text-align:center;
+	
+}
+
+a{
+	text-decoration: none;
+	color:#ccc;
+}
+
+#showcase{
+	margin:0;
+	padding:0;
+	background: url("hero.jpg") no-repeat center/cover;
+	width:100%
+	height: 100vh;
+	position: relative;
+	overflow-y:hidden;
+}
+
+#showcase .container{
+	margin-top: 25vh;
+}
+
+#showcase h1{
+	font-size:4rem;  /*root elements font size */
+}
+
+#showcase h2{
+	font-size:2rem;
+}
+
+ nav a{
+	display:inline-block;
+	width:100px;
+	text-align:center;
+	padding:10px 0;
+	color:#eee;
+	text-decoration:none;
+	/*margin:0;
+	padding:0;
+	height:30px;
+	width:100%;
+	background-color:#333;
+	color: rgb(51,34,34);*/
+
+ }
+
+/*music*/
+
+#misic{
+	text-align:center;
+	font-size:30px;
+	
+}
+.ty{
+	font-size:40px;
+	border:5px solid DarkBlue;
+	 background-color:red;
+}
+
+
+#video{
+	text-align:center;
+	color:#fff;
+	font-size:30px;
+}
+
+.mx{
+	font-size:40px;
+	border:5px solid DarkBlue;
+	 background-color:red;
+}
+
+/*#entertainment{
+    background: url("im.jfif") no-repeat;
+    padding: 10rem 0;
+
+*/
+
+ /* Footer */
+footer .footer-cols {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  footer .footer-cols ul {
+    list-style: none;
+  }
+
+footer .footer-cols ul {
+    list-style: none;
+  }
+
+  footer .footer-cols ul li:first-child {
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+  }
+footer .footer-bottom {
+    background: #333;
+    padding: 1rem;
+  }
